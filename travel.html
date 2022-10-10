@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css_reset.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="travel.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div>
+            <div class="header_bg">
+            </div>
+            <div class="container-fluid head-con-fluid">
+                <div class="container head_con">
+                    <p class="travel">TRAVEL</p>
+                    <img src="images/travlogo.png" alt="" class="travlogo">
+                    <p class="hut">HUT</p>
+
+
+
+
+
+                    <nav class="navbar navbar-expand-lg navbar-light" style="background-color:none;">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link rit-nl active px-2" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link rit-nl dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                      Dropdown
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                      <li><a class="dropdown-item" href="#">Pricing</a></li>
+                                      <li><a class="dropdown-item" href="#">Demo</a></li>
+                                      <li><a class="dropdown-item" href="#">Features</a></li>
+                                    </ul>
+                                  </li>
+                                <li class="nav-item">
+                                    <a class="nav-link rit-nl" href="#">About</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link rit-nl dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                      Services
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                      <li><a class="dropdown-item" href="#">Flights</a></li>
+                                      <li><a class="dropdown-item" href="#">Hotels</a></li>
+                                      <li><a class="dropdown-item" href="#">Cars</a></li>
+                                      <li><hr class="dropdown-divider"></li>
+                                      <li><a class="dropdown-item" href="#">Transfers</a></li>
+                                    </ul>
+                                  </li>
+                                <li class="nav-item">
+                                    <a class="nav-link rit-nl" href="#">Contact Us</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <button class="blog">BLOG</button>
+    <div class="h2-travel">Travel to  the most beautiful places in the world, like The Colosseum in Rome</div>
+    <button class="visit">Visit Us</button>
+    <div class="box">
+        <div id="container-box">
+            <form action="">
+                <div class="form-input-container">
+                    <select class="form-select form-select-sm" aria-label=".form-select-sm example" id="desti">
+                        <option selected>Destination</option>
+                        <option value="1">Europe</option>
+                        <option value="2">USA</option>
+                        <option value="3">Africa</option>
+                    </select>
+                </div>
+                <!-- <input type="text" placeholder="05/05/2022-15/05/2022" id="date"> -->
+                <div class="form-input-container">
+                    <input class="form-select" type="text" name="daterange" value="01/01/2022 - 01/15/2022" id="date"/>
+                </div>
+                <div class="form-input-container">
+                <select class="form-select form-select-sm" aria-label=".form-select-sm example" id="people">
+                        <option selected>Enter no. of people</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="3">4</option>
+                        <option value="3">5+</option>
+                    </select>
+                </div>
+                <div class="form-input-container">
+                    <button class="src_but">Search</button>
+                 </div>
+            </form>
+        </div>
+   </div>
+        <div class="container-fluid rit-sel-cf">
+            <div class="container">
+                <h2 class="about">ABOUT US</h2>
+                <div class="row one">
+                    <div class="col-sm-12 col-md-3"><div id="boat"></div></div>
+                    <div class="col-sm-12 col-md-3"><div id="couple"></div></div>
+                    <div class="col-sm-12 col-md-6"><h1>Explore All Corners of The World with Us</h1><p class="para-top">Far far away, behind the word mountains, far from the countries
+                        Vokalia and Consonantia, there live the blind texts. Separated
+                        they live in Bookmarksgrove right at the coast of the Semantics,
+                        a large language ocean. <br> <span>A small river named Duden flows by their place and supplies it
+                        with the necessary regelialia. It is a paradisematic country, in
+                        which roasted parts of sentences fly into your mouth.</span></p>
+                        <button id="read">Read More</button>
+                    </div>
+                </div>
+                <h4 class="serve">WHAT WE SERVE</h4>
+                <h2 class="popular">Popular Destinations</h2>
+                <div class="hr"></div>
+                <i class="fa-solid fa-arrows-left-right-to-line rit-arrow"></i>
+                <div class="row two">
+                    <div class="col-md-4 col-sm-12 white-one"><p class="white">The White City <br><span class="greece">GREECE</span></p></div>
+                    <div class="col-md-4 col-sm-12 mirihi-two"><p class="mir-isl">Mirihi Island <br><span class="mal">MALDIVES</span></p></div>
+                    <div class="col-md-4 col-sm-12 lake-three"><p class="abr-lake">Abraham Lake<br><span class="can">CANADA</span></p></div>
+                </div>
+                <div class="changer">
+                    <div class="circle1"></div>
+                    <div class="circle1 c1-active"></div>
+                </div>
+                <br>
+                <h2 class="discount">Special Discounts</h2>
+                <div class="dash"></div>
+                <div class="row three">
+                    <div class="col-md-6 col-sm-12 house"></div>
+                    <div class="col-md-6 col-sm-12 opera"><p>$390 <br> <span>Opera House, Australia</span></p></div>
+                </div>
+                <div class="row four">
+                    <div class="col-md-6 col-sm-12 fuji"><p>$390 <br> <span>Mount Fuji, Japan</span></p></div>
+                    <div class="col-md-6 col-sm-12 mount"></div>
+                </div>
+                <div class="row five">
+                    <div class="col-md-6 col-sm-12 tower"></div>
+                    <div class="col-md-6 col-sm-12 eliza"><p>$290 <br> <span>Elizabeth Tower, London</span></p></div>
+                </div><br>
+                <h2 class="services">Our Services</h2>
+                <div class="dash-2"></div>
+                <div class="row six">
+                    <div class="col-md-3 col-sm-12"> <div class="flight"></div> <h5 class="transport">Easy and Free Transport</h5><p class="trans-lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore distinctio ipsum earum doloremque pariatur at, voluptatem nulla deserunt qui suscipit quaerat, minima amet itaque ea dicta sint, aspernatur dolor cumque!</p><p class="trans-learn">Learn More</p></div>
+                    <div class="col-md-3 col-sm-12"><div class="swim"></div><h5 class="pool">Swimming Pool</h5><p class="pool-lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore distinctio ipsum earum doloremque pariatur at, voluptatem nulla deserunt qui suscipit quaerat, minima amet itaque ea dicta sint, aspernatur dolor cumque!</p><p class="pool-learn">Learn More</p></div>
+                    <div class="col-md-3 col-sm-12"><div class="food"></div><h5 class="deli-food">Delicious Food</h5><p class="deli-food-lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore distinctio ipsum earum doloremque pariatur at, voluptatem nulla deserunt qui suscipit quaerat, minima amet itaque ea dicta sint, aspernatur dolor cumque!</p><p class="deli-food-learn">Learn More</p></div>
+                    <div class="col-md-3 col-sm-12"><div class="play"></div><h5 class="ground">Playground</h5><p class="ground-lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore distinctio ipsum earum doloremque pariatur at, voluptatem nulla deserunt qui suscipit quaerat, minima amet itaque ea dicta sint, aspernatur dolor cumque!</p><p class="ground-learn">Learn More</p></div>
+                </div>
+                <div class="images">
+                    <div class="write"><img src="images/write.png" class="write-img"><p class="experience">Write Down Your Experience</p></div>
+                    <div class="jungle"><img src="images/jungle.png" class="jungle-img"><p class="explore">Explore Yourself In Jungles</p></div>
+                </div>
+                <h2 class="want">Want To Travel With Us?</h2>
+                <button type="button" class="btn btn-primary btn-lg book">Book Now</button>
+                
+            </div>
+        </div>
+        <div class="below-bg"></div>
+
+        <div class="container rit-footer">
+            <footer class="py-5">
+              <div class="row">
+                  
+                <div class="col-md-3">
+                  <h5 class="heading">Support</h5>
+                  <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted under">Search Teams</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted under">Advanced Search</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted under">Consultant</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted under">Help & FAQs</a></li>
+                  </ul>
+                </div>
+          
+                <div class="col-md-3">
+                  <h5 class="heading">Company</h5>
+                  <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted under">News</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted under">Services</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted under">Careers</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted under">Pricing</a></li>
+                  </ul>
+                </div>
+          
+                <div class="col-md-3">
+                  <h5 class="heading">Contact Us</h5>
+                  <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted under">Home</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted under">Features</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted under">Pricing</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted under">FAQs</a></li>
+                  </ul>
+                </div>
+          
+                <div class="col-md-3">
+                  <form>
+                    <h5 class="heading">About Us</h5>
+                    <p class="foot-lorem">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium aut dolorum placeat ipsam dolores reprehenderit repellendus mollitia voluptate blanditiis, aperiam ea provident sint dolor perferendis fugit numquam ut, exercitationem nesciunt.</p>
+                    <div class="d-flex w-100 gap-2 news">
+                      <label for="newsletter1" class="visually-hidden">Email address</label>
+                      <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                      <button class="btn btn-primary subs" type="button">Subscribe</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+          
+              <div class="d-flex justify-content-between py-4 my-4 border-top line">
+                <p class="copy">© 2022 Travel Hut, All rights reserved.</p>
+                <ul class="list-unstyled d-flex icon-list">
+                  <li class="ms-3"><a class="link-dark" href="#"><i class="fa-brands fa-twitter rit-icon"></i></a></li>
+                  <li class="ms-3"><a class="link-dark" href="#"><i class="fa-brands fa-instagram rit-icon"></i></a></li>
+                  <li class="ms-3"><a class="link-dark" href="#"><i class="fa-brands fa-facebook rit-icon"></i></a></li>
+                </ul>
+              </div>
+            </footer>
+          </div>
+</body>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+    <script>
+        $(function() {
+            $('input[name="daterange"]').daterangepicker({
+                opens: 'left'
+            }, function(start, end, label) {
+                console.log("A new date selection was made: " + start.format('YYYY-MM-DD') + ' to ' + end.format('YYYY-MM-DD'));
+            });
+        });
+    </script>
+</html>
